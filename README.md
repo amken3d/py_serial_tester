@@ -1,6 +1,10 @@
 # Py Serial Tester
 This software project allows the connection check between a Raspberry Pi and a RP2040. It uses the defined pins for TX and RX and communicates via UART protocol.
 
+### Installing on Raspberry Pi and RP2040
+- If you are using GPIO0/1 on the rp2040, then just upload the uf2 file in the build folder in bootsel mode (drag and drop)
+- Run the python3 py_serial_tester.py 
+
 ## System Requirements
 - Raspberry Pi device
 - RP2040 device
@@ -16,9 +20,7 @@ This software project allows the connection check between a Raspberry Pi and a R
 2. Clone or download this repository to your local system.
 3. Navigate inside the project's directory using your terminal.
 
-### Installing on Raspberry Pi and RP2040
-- Connect the Raspberry Pi and RP2040 as per their specifications
-- Define the appropriate Tx/Rx pins in the `main.c` file
+
 
 ## Building the Project
 - To build the project, use the `cmake` build system provided by the Pico SDK.
